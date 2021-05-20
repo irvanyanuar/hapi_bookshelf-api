@@ -89,7 +89,7 @@ const getAllBooksHandler = (request, h) => {
       return response;
     }
     const response = h.response({
-      status: 'success',
+      status: 'fail',
       message: 'Buku tidak ditemukan',
     });
     response.code(404);
@@ -113,7 +113,7 @@ const getAllBooksHandler = (request, h) => {
       return response;
     }
     const response = h.response({
-      status: 'success',
+      status: 'fail',
       message: 'Buku tidak ditemukan',
     });
     response.code(404);
@@ -137,7 +137,7 @@ const getAllBooksHandler = (request, h) => {
       return response;
     }
     const response = h.response({
-      status: 'success',
+      status: 'fail',
       message: 'Buku tidak ditemukan',
     });
     response.code(404);
